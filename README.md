@@ -20,7 +20,7 @@ Recursive is a behaviour in which function calls itself. Usually, recursive algo
 
 ## In-place
 
-An in-place sorting algorithm needs no extra data structure in running to sort. Some algorithms cannot be used in place, they usually not overwritten his input and creates a new structure in memory.
+An in-place sorting algorithm needs no extra data structure in running to sort. Some algorithms cannot be used in-place, they usually not overwritten his input and creates a new structure in memory.
 
 ## Adaptive
 
