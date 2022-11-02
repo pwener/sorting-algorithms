@@ -38,8 +38,13 @@ Let's look to this _pseudo-python_ example:
 
 ## Hackerrank
 
-- https://www.hackerrank.com/challenges/insertionsort1/problem
-- https://www.hackerrank.com/challenges/insertionsort2/problem
+- [Insert sort 1](https://www.hackerrank.com/challenges/insertionsort1/problem)
+
+> :bulb: for this problem we could solve with insert sort algorithm considering the follow points: 
+
+- The pointer is fixed(the rightmost). 
+- The loop's steps should be easier in the backward way.
+- Swap function should be more like a shift instead.
 
 ## References
 
