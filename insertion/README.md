@@ -2,7 +2,7 @@
 
 | Comparison-based | Stable | Recursive | In-place | Adaptive | Online |
 | :---:  | :---:  | :---:  | :---: |:---:  | :---: |
-| X | X | X | X | X | X |
+| :heavy_check_mark: | :heavy_check_mark: | :x: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 
 
 ## Algorithm
@@ -24,7 +24,7 @@ Ordering example:
 - We should start iterating along the input array.
 - Imagine that we have a pointer in each iteration that needs to iterate over the array to evaluate each element compared to the previous one.
 - Now, while this pointer is higher than 0 and the element of pointer is lesser than the previous element, we need to swap them.
-- > Maybe it is easier to think that in each step, we already sorted the previous elements, in the current, we just need to swap if we found something lesser than pointer.
+- > :bulb: Maybe it is easier to think that in each step, we already sorted the previous elements, in the current, we just need to swap if we found something lesser than pointer.
 - Pointer will always running backward, remember that the **while loop** is inside of a **for loop**. So, thinking in the last iterations, we can see that if pointer is lesser that all previous values, we will iterating along all array.
 
 <p align="center">
