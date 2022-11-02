@@ -1,8 +1,6 @@
 # Insertion sort
 
-## Algorithm
-
-Ordering example:
+Let's look to this _pseudo-python_ example:
 
 ```python
     for i in range(1, length):
@@ -38,7 +36,12 @@ Ordering example:
 - The algorithm could change the array without knowning the initial input. So, it's _in-place_.
 - If data continue coming, the algorithm keep working. So it's online!
 
-# References
+## Hackerrank
+
+- https://www.hackerrank.com/challenges/insertionsort1/problem
+- https://www.hackerrank.com/challenges/insertionsort2/problem
+
+## References
 
 - [Time and space complexity analysis (big-O notation)](https://www.udemy.com/course/complexity-analysis/learn/lecture/24722488#overview)
 - [Insert sort](https://pt.wikipedia.org/wiki/Insertion_sort)
