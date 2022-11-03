@@ -34,6 +34,18 @@
 - A pre-sorted list will spent less time. So it's adaptative.
 - The algorithm will not process correctly new elements after process, it's not online.
 
-# References
+### Hackerrank
+
+[Bubble sort](https://www.hackerrank.com/challenges/ctci-bubble-sort/problem)
+
+:bulb: Basic bubble sort algorithm
+
+To run the code solution:
+
+```
+$cat input01.txt | go run main.go
+```
+
+### References
 
 - [Bubble sort](https://en.wikipedia.org/wiki/Bubble_sort)

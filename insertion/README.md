@@ -35,7 +35,7 @@
 - A pre-sorted list will be proccessed easily. So it's adaptative.
 - If data continue coming, the algorithm keep working. So it's online!
 
-## Hackerrank
+### Hackerrank
 
 [Insert sort 1](https://www.hackerrank.com/challenges/insertionsort1/problem)
 
@@ -45,7 +45,13 @@
 - The loop's steps should be easier in the backward way.
 - Swap function should be more like a shift instead.
 
-## References
+To run the code solution:
+
+```
+$cat input02.txt | go run main.go
+```
+
+### References
 
 - [Time and space complexity analysis (big-O notation)](https://www.udemy.com/course/complexity-analysis/learn/lecture/24722488#overview)
 - [Insert sort](https://pt.wikipedia.org/wiki/Insertion_sort)
