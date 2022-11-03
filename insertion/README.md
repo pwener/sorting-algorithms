@@ -1,7 +1,5 @@
 # Insertion sort
 
-Let's look to this _pseudo-python_ example:
-
 ```python
     for i in range(1, length):
         pointer = i
@@ -30,8 +28,8 @@ Let's look to this _pseudo-python_ example:
 | :---:  | :---:  | :---:  | :---: |:---:  | :---: |
 | :heavy_check_mark: | :heavy_check_mark: | :x: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 
-- Uses "lesser than" operator to sort.
-- Equals values should be preserve their position, so it's stable.
+- Uses some conditional operator to sort.
+- Equals values should preserve their position, so it's stable.
 - Don't calls any process recursively. So isn't recursive.
 - The algorithm could change the array without knowning the initial input. So, it's _in-place_.
 - If data continue coming, the algorithm keep working. So it's online!
