@@ -32,6 +32,7 @@
 - Equals values should preserve their position, so it's stable.
 - Don't calls any process recursively. So isn't recursive.
 - The algorithm could change the array without knowning the initial input. So, it's _in-place_.
+- A pre-sorted list will be proccessed easily. So it's adaptative.
 - If data continue coming, the algorithm keep working. So it's online!
 
 ## Hackerrank

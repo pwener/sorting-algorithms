@@ -31,7 +31,7 @@
 - Equals values should preserve their position, which makes it stable.
 - Don't calls any process recursively. So isn't recursive.
 - It's in-place because the algorithm just change the input data.
-- Equals elements will not be swapped. So it's adaptative.
+- A pre-sorted list will spent less time. So it's adaptative.
 - The algorithm will not process correctly new elements after process, it's not online.
 
 # References
