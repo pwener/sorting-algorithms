@@ -1,34 +1,34 @@
 # Introduction
 
-> A sorting algorithm is a function that takes a sequence of items and somehow constructs a permutation of them, such that they are ordered in some fashion.
+> A sorting algorithm is a function that takes a sequence of items and constructs a permutation of them in a specific order or arrangement.
 
-First, the study will evaluate algorithms with by follow properties.
+First of all, the study will evaluate algorithms with by following properties.
 
 ## Comparison-based
 
-Is a type os sorting that is based on a single comparison operation, for example "less than".
+It is a type of sorting that is based on a single comparison operation, such as "less than."
 
 ## Stable
 
-> Sort Key - is a value used to determine the ordering of items in a given collection. 
+> A Sort Key is a value utilized to establish the order of items within a given collection.
 
-In a stable sorting algorithm, the type of items with a same sort keys preserve their position order after the colletion is sorted.
+In a stable sorting algorithm, items with the same sort keys maintain their position order after the collection is sorted.
 
 ## Recursive
 
-Recursive is a behaviour in which function calls itself. Usually, recursive algorithms work by splitting array into smallers subarrays, and then sorting this subarrays.
+Recursion is a behavior in which a function calls itself. Recursive algorithms typically operate by dividing an array into smaller subarrays and sorting them individually.
 
 ## In-place
 
-An in-place sorting algorithm needs no extra data structure in running to sort. Some algorithms cannot be used in-place, they usually not overwritten his input and creates a new structure in memory.
+An in-place sorting algorithm requires no additional data structure during its execution to perform the sorting. However, certain algorithms cannot be used in-place as they do not overwrite their input and instead create a new data structure in memory.
 
 ## Adaptive
 
-A sorting algorithm is adaptive if it takes advantage of already 'sorted' elements in the input list.
+A sorting algorithm is considered adaptive if it leverages the presence of already "sorted" elements in the input list to optimize its performance.
 
 ## Online
 
-A online sorting algorithm is one that can sort a stream of input, i.e., in the order that a single input of collection is fed to the algorithm, without having all inputs from the start of the algorithm.
+An online sorting algorithm is capable of sorting a continuous stream of input, meaning it can process individual elements as they are fed to the algorithm, without requiring all inputs to be available from the start of the algorithm.
 
 # References
 - [Recursion and sorting algorithms](https://staffwww.fullcoll.edu/aclifton/cs133/lecture-9-recursion-sorting.html)
